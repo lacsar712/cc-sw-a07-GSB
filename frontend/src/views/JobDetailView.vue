@@ -33,6 +33,7 @@ watch(() => route.params.id, load)
       <p>灯种：{{ job.lamp }}</p>
       <p>标称 nm：{{ job.nominal_nm }}</p>
       <p>实测 nm：{{ job.measured_nm }}</p>
+      <p>口令券：{{ job.voucher_code || '—' }}</p>
       <p>状态：{{ job.status }}</p>
       <p>结论：{{ job.verdict }}</p>
       <p>理由：{{ job.reason }}</p>
